@@ -1,38 +1,37 @@
-baseURL = "http://example.org/"
+title = "Notre-Dame de Paris"
+baseURL = "https://example.com"
 languageCode = "en-us"
-title = "Edward L Richards professional website"
-theme = "mero"
-disableKinds = ["taxonomyTerm"]
+theme = "ananke"
+themesDir = "themes"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
-  dateFormat = "2006-01-02"
-  author = "Edward L Richards"
-  description = "My professional webpage"
-  mainImage = "images/main.jpeg"
-
-[params.introduction]
-   text = "As an oceanographer, I focus on the propagation of acoustics through the ocean. Underwater sound is very important to both marine life and artifical applications like underwater communications. While I often use dolphins or bats to motivate discussion in outreach presentations, my work is primarily focuses on physical propagation effects and does not concern biology at all. Instead, my reasearch is intended to both improve simulation of acoustic propagation and study ways that acoustic transmissions can inform us about the ocean enviornment."
-
-[params.social]
-  [[params.social.list]]
-  class = "fab"
-  icon = "fa-linkedin-in"
-  url = "https://www.linkedin.com/in/edward-richards-77578835/"
-
-  [[params.social.list]]
-  class = "fab"
-  icon = "fa-github"
-  url = "https://github.com/nedlrichards"
-
-  [[params.social.list]]
-  class = "fab"
-  icon = "fa-twitter"
-  url = "https://twitter.com/seachirps"
-
-  [[params.social.list]]
-  class = "fab"
-  icon = "fa-stack-overflow"
-  url = "http://stackoverflow.com/u/4548347"
-
-[params.footer]
-  message = "&copy; 2020 Name"
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = "https://twitter.com/seachirps"
+  instagram = ""
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-navy"
+  #featured_image = "/images/beach_jkd.jpg"
+  cloudinary_base_url ="https://res.cloudinary.com/dqg4qqb1z"
+  featured_image = "https://res.cloudinary.com/dqg4qqb1z/w_auto,c_scale,f_auto,q_auto,dpr_auto/beach_jkd.jpg"
+  recent_posts_number = 2
