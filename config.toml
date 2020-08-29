@@ -1,0 +1,38 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Edward L Richards professional website"
+theme = "mero"
+disableKinds = ["taxonomyTerm"]
+
+[params]
+  dateFormat = "2006-01-02"
+  author = "Edward L Richards"
+  description = "My professional webpage"
+  mainImage = "images/main.jpeg"
+
+[params.introduction]
+   text = "As an oceanographer, I focus on the propagation of acoustics through the ocean. Underwater sound is very important to both marine life and artifical applications like underwater communications. While I often use dolphins or bats to motivate discussion in outreach presentations, my work is primarily focuses on physical propagation effects and does not concern biology at all. Instead, my reasearch is intended to both improve simulation of acoustic propagation and study ways that acoustic transmissions can inform us about the ocean enviornment."
+
+[params.social]
+  [[params.social.list]]
+  class = "fab"
+  icon = "fa-linkedin-in"
+  url = "https://www.linkedin.com/in/edward-richards-77578835/"
+
+  [[params.social.list]]
+  class = "fab"
+  icon = "fa-github"
+  url = "https://github.com/nedlrichards"
+
+  [[params.social.list]]
+  class = "fab"
+  icon = "fa-twitter"
+  url = "https://twitter.com/seachirps"
+
+  [[params.social.list]]
+  class = "fab"
+  icon = "fa-stack-overflow"
+  url = "http://stackoverflow.com/u/4548347"
+
+[params.footer]
+  message = "&copy; 2020 Name"
